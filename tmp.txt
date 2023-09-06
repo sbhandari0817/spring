@@ -1,0 +1,500 @@
+   22  clear 
+   23  ls
+   24  ls
+   25  clear 
+   26  ls
+   27  git status
+   28  git rebase master 
+   29  clear 
+   30  ls
+   31  git merge main 
+   32  git pull 
+   33  git merge master 
+   34  ls
+   35  ls
+   36  git status
+   37  clear 
+   38  git add . 
+   39  git commit -m "final"
+   40  clear 
+   41  ls
+   42  git status
+   43  git commit --history
+   44  ls
+   45  clear 
+   46  git log
+   47  git rebase -i HEAD~3
+   48  git rebase -i HEAD~2
+   49  git rebase --continue 
+   50  git rebase --edit-todo
+   51  git rebase --continue
+   52  ls
+   53  clear 
+   54  git log
+   55  git reset --soft HEAD~2
+   56  git reset --soft HEAD~1
+   57  ls
+   58  git log
+   59  git status
+   60  ls
+   61  clear 
+   62  ls
+   63  cd HotCoffee/
+   64  ls
+   65  cd HotCoffee
+   66  ls
+   67  cd Models/
+   68  ls
+   69  cd ..
+   70  ls
+   71  cd ..
+   72  ls
+   73  ls
+   74  cd ..
+   75  ls
+   76  cd HotCoffee/
+   77  ls
+   78  cd ..
+   79  ls
+   80  cd swiftU
+   81  ls
+   82  clear 
+   83  ls
+   84  git status
+   85  clear 
+   86  git add . 
+   87  git rm --cached AdoptPet
+   88  ls
+   89  clear 
+   90  ls
+   91  git add . 
+   92  git commit -m "some iOS work"
+   93  clear 
+   94  git log
+   95  git diff
+   96  clear 
+   97  clear
+   98  ls
+   99  cd ..
+  100  ls
+  101  cd ios_learning/
+  102  ls
+  103  clear 
+  104  git status
+  105  git log
+  106  clear 
+  107  ls
+  108  git diff
+  109  clera 
+  110  clera 
+  111  clear
+  112  ls
+  113  git add . 
+  114  git rm --cached CustomProject/
+  115  ls
+  116  clear 
+  117  ls
+  118  git add . 
+  119  git commit "iOS projects"
+  120  git commit -m "iOS projects"
+  121  clear 
+  122  git log
+  123  clera 
+  124  clear 
+  125  ls
+  126  cd ..
+  127  ls
+  128  cd vagrant-vms/
+  129  ls
+  130  cd bashScripts/
+  131  ls
+  132  cd scripts/
+  133  ls
+  134  cat 14_for.sh 
+  135  ls
+  136  cd Desktop/
+  137  ls
+  138  cd vagrant-vms/
+  139  ls
+  140  clear 
+  141  cd ubuntu18/
+  142  ls
+  143  vi textfile.txt
+  144  cd ..
+  145  ls
+  146  cd centos7/
+  147  ls
+  148  vi temp.txt 
+  149  cd ..
+  150  ls
+  151  cd vprofile-project/
+  152  ls
+  153  cd ..
+  154  ls
+  155  config
+  156  ipconfig
+  157  ifconfig
+  158  ipconfig
+  159  ifcount
+  160  ipconfig ifcount
+  161  ipconfig getsummary
+  162  clear 
+  163  ls
+  164  clear
+  165  ls
+  166  cd vprofile-project/
+  167  ls
+  168  ls
+  169  cd vagrant/
+  170  ls
+  171  cd ..
+  172  ls
+  173  cd ..
+  174  ls
+  175  cd IAAC/
+  176  ls
+  177  cd ..
+  178  ls
+  179  mkdir multivm
+  180  cd multivm/
+  181  ls
+  182  cd ..
+  183  ls
+  184  cd vprofile-project/
+  185  ls
+  186  cd vagrant/
+  187  ls
+  188  cd au
+  189  cd Automated_provisioning
+  190  ls
+  191  cat Vagrantfile 
+  192  ls
+  193  cp Vagrantfile ./multivm
+  194  cd ..
+  195  ls
+  196  cd ..
+  197  ls
+  198  cd ..
+  199  ls
+  200  cd multivm/
+  201  ls
+  202  cd *./Automated_provisioning
+  203  cd ./Automated_provisioning
+  204  cd ~/Automated_provisioning
+  205  cd ~/Automated_provisioning
+  206  cd 
+  207  cd ~/Automated_provisioning
+  208  ls
+  209  cd Desktop/
+  210  ls
+  211  cd vagrant-vms/
+  212  ls
+  213  cd vprofile-project/
+  214  ls
+  215  cd vagrant/
+  216  ls
+  217  cd Automated_provisioning
+  218  ls
+  219  cd ..
+  220  ls
+  221  ls
+  222  cd Automated_provisioning
+  223  ls
+  224  vagrant up
+  225  vagrant ssh
+  226  clear 
+  227  vagrant up db01
+  228  vagrant ssh db01
+  229  vagrant down 
+  230  vagrant halt 
+  231  tracert www.google.in
+  232  clear
+  233  ls
+  234  cd .. 
+  235  ls
+  236  cd ..
+  237  ls
+  238  cd vagrant/
+  239  ls
+  240  cd Automated_provisioning
+  241  ls
+  242  vagrant up 
+  243  vagrant ssh db01
+  244  vagrant halt
+  245  cd 
+  246  clear 
+  247  skills="DevOps"
+  248  echo $skills 
+  249  echo skills 
+  250  num=123
+  251  echo $num 
+  252  python 
+  253  python hello.py
+  254  python3 
+  255  clear
+  256  ls
+  257  cd Desktop/
+  258  ls
+  259  cd vagrant-vms/
+  260  ls
+  261  mkdir containerIntro
+  262  cd containerIntro/
+  263  ls
+  264  ls
+  265  cat Vagrantfile 
+  266  vagrant up
+  267  vagrant ssh
+  268  clear 
+  269  cd ..
+  270  ls
+  271  cd vagrantfiles_dock/
+  272  ls
+  273  cd windowsAndMacIntel/
+  274  ls
+  275  cat Vagrantfile 
+  276  vagrant up
+  277  vagrant global-status --prune
+  278  vagrant halt 1a3b3c4d
+  279  clear 
+  280  vagrant up
+  281  vagrant ssh
+  282  vagrant halt
+  283  clear 
+  284  ls
+  285  vagrant global-status --prune
+  286  vagrant halt
+  287  clear 
+  288  vagrant up 
+  289  vagrant ssh
+  290  vagrant halt
+  291  clear 
+  292  cd ..
+  293  ls
+  294  cd ..
+  295  ls
+  296  clear 
+  297  ls
+  298  mkdir bashScripts
+  299  cd bashScripts/
+  300  ls
+  301  ls
+  302  clear 
+  303  ls
+  304  vim Vagrantfile 
+  305  vagrant up scriptbox
+  306  vagrant ssh 
+  307  vagrant ssh scriptbox
+  308  vagrant halt
+  309  vagrant up scriptbox
+  310  vagrant ssh scriptbox
+  311  java --version
+  312  ls
+  313  vagrant ssh
+  314  cat Vagrantfile 
+  315  vagrant ssh scriptbox
+  316  ls
+  317  clear
+  318  cat Vagrantfile 
+  319  vim Vagrantfile 
+  320  vagrant ssh web01
+  321  vagrant up
+  322  clear 
+  323  vagrant ssh web01
+  324  vagrant ssh web02
+  325  vagrant web03
+  326  vagrant ssh web03
+  327  vagrant ssh scripbox
+  328  vatant ssh Scriptbox
+  329  vatant ssh scriptbox
+  330  vagrant ssh scriptbox
+  331  vagrant halt web01
+  332  vagrant halt web02
+  333  vagrant halt web03
+  334  vagrant ssh scriptbox
+  335  vagrant ssh 
+  336  vagrant up
+  337  vagrant ssh 
+  338  vagrant ssh scriptbox
+  339  ls
+  340  vagrant halt
+  341  cd 
+  342  clear
+  343  ssh -i "web-dev-key.pem" ec2-user@ec2-54-172-52-87.compute-1.amazonaws.com
+  344  pwd
+  345  ls
+  346  cd Downloads
+  347  ls
+  348  ssh -i "web-dev-key.pem" ec2-user@ec2-54-172-52-87.compute-1.amazonaws.com
+  349  ls
+  350  ls -l
+  351  chmod 600 web-dev-key.pem 
+  352  ls -l web-dev-key.pem 
+  353  ssh -i "web-dev-key.pem" ec2-user@ec2-54-172-52-87.compute-1.amazonaws.com
+  354  clear 
+  355  ls
+  356  cd Downloads/
+  357  ls
+  358  ssh -i "tween-dev-nvir.pem" ubuntu@ec2-54-160-233-57.compute-1.amazonaws.com
+  359  ls
+  360  chmod 600 tween-dev-nvir.pem 
+  361  ls -l tween-dev-nvir.pem 
+  362  ssh -i "tween-dev-nvir.pem" ubuntu@ec2-54-160-233-57.compute-1.amazonaws.com
+  363  clear 
+  364  ssh -i "tween-dev-nvir.pem" ubuntu@ec2-54-160-233-57.compute-1.amazonaws.com
+  365  clear 
+  366  clear
+  367  clear 
+  368  cd 
+  369  clear 
+  370  brew aws cli
+  371  brew install aws/tap/aws-sam-cli
+  372  sam --version
+  373  exit
+  374  clear
+  375  ls
+  376  sam --version
+  377  history
+  378  clear
+  379  ls
+  380  cd Desktop/
+  381  history &> temp.txt
+  382  cat temp.txt
+  383  clear
+  384  sam --version
+  385  aws --version
+  386  aws configure 
+  387  ls ~/.aws/
+  388  aws sts get-caller-identity 
+  389  aws sts get-caller-identity
+  390  aws sts get-caller-identity  >> output.txt
+  391  ls
+  392  cat output.txt 
+  393  rm -rf output.txt 
+  394  clear 
+  395  ls
+  396  aws sts get-caller-identity
+  397  ls ~/.aws/
+  398  cd ~/.aws/
+  399  ls
+  400  cat config 
+  401  cat credentials 
+  402  vi config 
+  403  cd 
+  404  aws sts get-caller-identity
+  405  ls
+  406  history 
+  407  history >> temp.txt
+  408  clear
+  409  aws ec2 describe-instances 
+  410  ls
+  411  clear
+  412  aws ec2 create-key-pair --key-name CliKeyPair
+  413  aws ec2 create-security-group --group-name cli-sg --description "Cli Secutiry Group"
+  414  aws ec2 delete-security-group --group-name cli-sg
+  415  aws ec2 delete-key-pair --key-name CliKeyPair
+  416  aws ec2 delete-key-pair --key-name CliKeyPair
+  417  clear 
+  418  ls
+  419  cd Downloads/
+  420  ls
+  421  clear 
+  422  ls
+  423  ssh -i tween-dev-nvir.pem ec2-user@3.89.19.217
+  424  clear 
+  425  exit
+  426  ssh -i /download/tween-dev-nvir.pem ec2-user@44.202.25.140
+  427  ls
+  428  ssh -i /Download/tween-dev-nvir.pem ec2-user@44.202.25.140
+  429  cd Downloads/
+  430  ld
+  431  ls
+  432  ssh -i tween-dev-nvir.pem ec2-user@44.202.25.140
+  433  ssh -i /Download/tween-dev-nvir.pem ec2-user@44.202.25.140
+  434  ssh -i tween-dev-nvir.pem ec2-user@44.202.25.140
+  435  clear 
+  436  ssh -i tween-dev-nvir.pem ec2-user@44.202.25.140
+  437  brew sql lite
+  438  brew install mysql
+  439  brew services start mysql 
+  440  mysql -u root
+  441  clear 
+  442  ls
+  443  clear 
+  444  cd /usr
+  445  ls
+  446  cd /bin
+  447  ls
+  448  cd hostname 
+  449  cat hostname 
+  450  clear 
+  451  ls
+  452  cd hostname 
+  453  cd ..
+  454  ls
+  455  cd opt/
+  456  ls
+  457  cdcd ..
+  458  cd ..
+  459  ls
+  460  cd usr/
+  461  ls
+  462  cd local/
+  463  ls
+  464  cd opt/
+  465  ls
+  466  cd mysql
+  467  ls
+  468  cd
+  469  clear 
+  470  launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist
+  471  brew services start mysql 
+  472  clear 
+  473  brew services stop  mysql 
+  474  ip addr show
+  475  show ip addr
+  476  ifconfig
+  477  ip addr show
+  478  inet
+  479  ifconfig | grep inet
+  480  clear 
+  481  ifconfig | grep inet
+  482  brew services start  mysql 
+  483  mysql -u root
+  484  mysql -u root -p
+  485  mysql -u root
+  486  mysql -u root -p
+  487  brew services stop  mysql 
+  488  clear
+  489  exit
+  490  aws --version
+  491  clear 
+  492  mvn -v
+  493  cd 
+  494  ls
+  495  cd Applications/
+  496  ls
+  497  cd ..
+  498  ls
+  499  clear 
+  500  ls
+  501  cd ..
+  502  ls
+  503  java -jar springapp
+  504  ls
+  505  cp springapp springapp01
+  506  ls
+  507  cpdir springapp sprinapp01
+  508  clear 
+  509  ls
+  510  cp -r springapp springapp01
+  511  ls
+  512  cd springapp
+  513  ./mvnw package
+  514  ls
+  515  cd target/
+  516  ls
+  517  java -jar springapp-0.0.1-SNAPSHOT.jar
+  518  cd ..
+  519  ls
+  520  ./mvnw spring-boot:run 
+  521  history > tmp.txt 
