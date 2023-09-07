@@ -4,6 +4,8 @@ import com.sb.springboot.demo.springapp.entity.Student;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.TypedQuery;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -11,6 +13,8 @@ import java.lang.reflect.Type;
 import java.util.List;
 
 @Repository
+@Component
+@Primary
 public class StudentDAOImpl implements StudentDAO{
 
     // Define filed for entity Manager
