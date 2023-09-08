@@ -3,11 +3,12 @@ package com.sb.springboot.demo.springapp.rest;
 import com.sb.springboot.demo.springapp.dao.StudentDAO;
 import com.sb.springboot.demo.springapp.entity.Student;
 import com.sb.springboot.demo.springapp.entityclass.StudentE;
+import com.sb.springboot.demo.springapp.error.StudentErrorResponse;
+import com.sb.springboot.demo.springapp.error.StudentNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,17 +16,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/api")
 public class StudentController {
-    private StudentDAO studentDAO;
-
-    @Autowired
-    public StudentController(StudentDAO studentDAO) {
-        this.studentDAO = studentDAO;
-    }
-    //define end point for /stduent
-    @GetMapping("/student")
-    public List<Student> getStudent() {
-        return studentDAO.findAll();
-    }
 
     @GetMapping("/student/{studentId}")
     public StudentE getStudentWithId(@PathVariable int studentId) {
@@ -33,7 +23,37 @@ public class StudentController {
         list.add(new StudentE("Ram", "Khadka"));
         list.add(new StudentE("Hari", "Sharma"));
 
+        //Check the studentID against list size
+        if (studentId >= list.size() || studentId < 0) {
+            throw new StudentNotFoundException("Student id not found : " + studentId );
+        }
+
         return list.get(studentId);
     }
 
+    // Add exception handler
+    @ExceptionHandler
+    public ResponseEntity<StudentErrorResponse>  handleException(StudentNotFoundException exception) {
+        // Create a StudentErrorResponse
+        StudentErrorResponse errorResponse = new StudentErrorResponse();
+        errorResponse.setStatus(HttpStatus.NOT_FOUND.value());
+        errorResponse.setMessage(exception.getMessage());
+        errorResponse.setTimeStamp(System.currentTimeMillis());
+
+        //Return the response
+        return new ResponseEntity<>(errorResponse, HttpStatus.NOT_FOUND);
+    }
+
+    //Add another exception handler to catch all the exception
+    @ExceptionHandler
+    public ResponseEntity<StudentErrorResponse> handleException(Exception exception) {
+        // Create a StudentErrorResponse
+        StudentErrorResponse errorResponse = new StudentErrorResponse();
+        errorResponse.setStatus(HttpStatus.BAD_REQUEST.value());
+        errorResponse.setMessage(exception.getMessage());
+        errorResponse.setTimeStamp(System.currentTimeMillis());
+
+        //Return the response
+        return new ResponseEntity<>(errorResponse, HttpStatus.BAD_REQUEST);
+    }
 }
