@@ -7,7 +7,7 @@ import java.util.List;
 public interface EmployeeDAO {
     List<Employee> findAll();
 
-    Employee findByID(int Id);
+    Employee findById(int Id);
 
     Employee save(Employee employee);
 
