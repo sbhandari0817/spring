@@ -498,3 +498,503 @@
   519  ls
   520  ./mvnw spring-boot:run 
   521  history > tmp.txt 
+   22  ls
+   23  cd vprofile-project/
+   24  ls
+   25  cd ..
+   26  ls
+   27  config
+   28  ipconfig
+   29  ifconfig
+   30  ipconfig
+   31  ifcount
+   32  ipconfig ifcount
+   33  ipconfig getsummary
+   34  clear 
+   35  ls
+   36  clear
+   37  ls
+   38  cd vprofile-project/
+   39  ls
+   40  ls
+   41  cd vagrant/
+   42  ls
+   43  cd ..
+   44  ls
+   45  cd ..
+   46  ls
+   47  cd IAAC/
+   48  ls
+   49  cd ..
+   50  ls
+   51  mkdir multivm
+   52  cd multivm/
+   53  ls
+   54  cd ..
+   55  ls
+   56  cd vprofile-project/
+   57  ls
+   58  cd vagrant/
+   59  ls
+   60  cd au
+   61  cd Automated_provisioning
+   62  ls
+   63  cat Vagrantfile 
+   64  ls
+   65  cp Vagrantfile ./multivm
+   66  cd ..
+   67  ls
+   68  cd ..
+   69  ls
+   70  cd ..
+   71  ls
+   72  cd multivm/
+   73  ls
+   74  cd *./Automated_provisioning
+   75  cd ./Automated_provisioning
+   76  cd ~/Automated_provisioning
+   77  cd ~/Automated_provisioning
+   78  cd 
+   79  cd ~/Automated_provisioning
+   80  ls
+   81  cd Desktop/
+   82  ls
+   83  cd vagrant-vms/
+   84  ls
+   85  cd vprofile-project/
+   86  ls
+   87  cd vagrant/
+   88  ls
+   89  cd Automated_provisioning
+   90  ls
+   91  cd ..
+   92  ls
+   93  ls
+   94  cd Automated_provisioning
+   95  ls
+   96  vagrant up
+   97  vagrant ssh
+   98  clear 
+   99  vagrant up db01
+  100  vagrant ssh db01
+  101  vagrant down 
+  102  vagrant halt 
+  103  tracert www.google.in
+  104  clear
+  105  ls
+  106  cd .. 
+  107  ls
+  108  cd ..
+  109  ls
+  110  cd vagrant/
+  111  ls
+  112  cd Automated_provisioning
+  113  ls
+  114  vagrant up 
+  115  vagrant ssh db01
+  116  vagrant halt
+  117  cd 
+  118  clear 
+  119  skills="DevOps"
+  120  echo $skills 
+  121  echo skills 
+  122  num=123
+  123  echo $num 
+  124  python 
+  125  python hello.py
+  126  python3 
+  127  clear
+  128  ls
+  129  cd Desktop/
+  130  ls
+  131  cd vagrant-vms/
+  132  ls
+  133  mkdir containerIntro
+  134  cd containerIntro/
+  135  ls
+  136  ls
+  137  cat Vagrantfile 
+  138  vagrant up
+  139  vagrant ssh
+  140  clear 
+  141  cd ..
+  142  ls
+  143  cd vagrantfiles_dock/
+  144  ls
+  145  cd windowsAndMacIntel/
+  146  ls
+  147  cat Vagrantfile 
+  148  vagrant up
+  149  vagrant global-status --prune
+  150  vagrant halt 1a3b3c4d
+  151  clear 
+  152  vagrant up
+  153  vagrant ssh
+  154  vagrant halt
+  155  clear 
+  156  ls
+  157  vagrant global-status --prune
+  158  vagrant halt
+  159  clear 
+  160  vagrant up 
+  161  vagrant ssh
+  162  vagrant halt
+  163  clear 
+  164  cd ..
+  165  ls
+  166  cd ..
+  167  ls
+  168  clear 
+  169  ls
+  170  mkdir bashScripts
+  171  cd bashScripts/
+  172  ls
+  173  ls
+  174  clear 
+  175  ls
+  176  vim Vagrantfile 
+  177  vagrant up scriptbox
+  178  vagrant ssh 
+  179  vagrant ssh scriptbox
+  180  vagrant halt
+  181  vagrant up scriptbox
+  182  vagrant ssh scriptbox
+  183  java --version
+  184  ls
+  185  vagrant ssh
+  186  cat Vagrantfile 
+  187  vagrant ssh scriptbox
+  188  ls
+  189  clear
+  190  cat Vagrantfile 
+  191  vim Vagrantfile 
+  192  vagrant ssh web01
+  193  vagrant up
+  194  clear 
+  195  vagrant ssh web01
+  196  vagrant ssh web02
+  197  vagrant web03
+  198  vagrant ssh web03
+  199  vagrant ssh scripbox
+  200  vatant ssh Scriptbox
+  201  vatant ssh scriptbox
+  202  vagrant ssh scriptbox
+  203  vagrant halt web01
+  204  vagrant halt web02
+  205  vagrant halt web03
+  206  vagrant ssh scriptbox
+  207  vagrant ssh 
+  208  vagrant up
+  209  vagrant ssh 
+  210  vagrant ssh scriptbox
+  211  ls
+  212  vagrant halt
+  213  cd 
+  214  clear
+  215  ssh -i "web-dev-key.pem" ec2-user@ec2-54-172-52-87.compute-1.amazonaws.com
+  216  pwd
+  217  ls
+  218  cd Downloads
+  219  ls
+  220  ssh -i "web-dev-key.pem" ec2-user@ec2-54-172-52-87.compute-1.amazonaws.com
+  221  ls
+  222  ls -l
+  223  chmod 600 web-dev-key.pem 
+  224  ls -l web-dev-key.pem 
+  225  ssh -i "web-dev-key.pem" ec2-user@ec2-54-172-52-87.compute-1.amazonaws.com
+  226  clear 
+  227  ls
+  228  cd Downloads/
+  229  ls
+  230  ssh -i "tween-dev-nvir.pem" ubuntu@ec2-54-160-233-57.compute-1.amazonaws.com
+  231  ls
+  232  chmod 600 tween-dev-nvir.pem 
+  233  ls -l tween-dev-nvir.pem 
+  234  ssh -i "tween-dev-nvir.pem" ubuntu@ec2-54-160-233-57.compute-1.amazonaws.com
+  235  clear 
+  236  ssh -i "tween-dev-nvir.pem" ubuntu@ec2-54-160-233-57.compute-1.amazonaws.com
+  237  clear 
+  238  clear
+  239  clear 
+  240  cd 
+  241  clear 
+  242  brew aws cli
+  243  brew install aws/tap/aws-sam-cli
+  244  sam --version
+  245  exit
+  246  clear
+  247  ls
+  248  sam --version
+  249  history
+  250  clear
+  251  ls
+  252  cd Desktop/
+  253  history &> temp.txt
+  254  cat temp.txt
+  255  clear
+  256  sam --version
+  257  aws --version
+  258  aws configure 
+  259  ls ~/.aws/
+  260  aws sts get-caller-identity 
+  261  aws sts get-caller-identity
+  262  aws sts get-caller-identity  >> output.txt
+  263  ls
+  264  cat output.txt 
+  265  rm -rf output.txt 
+  266  clear 
+  267  ls
+  268  aws sts get-caller-identity
+  269  ls ~/.aws/
+  270  cd ~/.aws/
+  271  ls
+  272  cat config 
+  273  cat credentials 
+  274  vi config 
+  275  cd 
+  276  aws sts get-caller-identity
+  277  ls
+  278  history 
+  279  history >> temp.txt
+  280  clear
+  281  aws ec2 describe-instances 
+  282  ls
+  283  clear
+  284  aws ec2 create-key-pair --key-name CliKeyPair
+  285  aws ec2 create-security-group --group-name cli-sg --description "Cli Secutiry Group"
+  286  aws ec2 delete-security-group --group-name cli-sg
+  287  aws ec2 delete-key-pair --key-name CliKeyPair
+  288  aws ec2 delete-key-pair --key-name CliKeyPair
+  289  clear 
+  290  ls
+  291  cd Downloads/
+  292  ls
+  293  clear 
+  294  ls
+  295  ssh -i tween-dev-nvir.pem ec2-user@3.89.19.217
+  296  clear 
+  297  exit
+  298  ssh -i /download/tween-dev-nvir.pem ec2-user@44.202.25.140
+  299  ls
+  300  ssh -i /Download/tween-dev-nvir.pem ec2-user@44.202.25.140
+  301  cd Downloads/
+  302  ld
+  303  ls
+  304  ssh -i tween-dev-nvir.pem ec2-user@44.202.25.140
+  305  ssh -i /Download/tween-dev-nvir.pem ec2-user@44.202.25.140
+  306  ssh -i tween-dev-nvir.pem ec2-user@44.202.25.140
+  307  clear 
+  308  ssh -i tween-dev-nvir.pem ec2-user@44.202.25.140
+  309  brew sql lite
+  310  brew install mysql
+  311  brew services start mysql 
+  312  mysql -u root
+  313  clear 
+  314  ls
+  315  clear 
+  316  cd /usr
+  317  ls
+  318  cd /bin
+  319  ls
+  320  cd hostname 
+  321  cat hostname 
+  322  clear 
+  323  ls
+  324  cd hostname 
+  325  cd ..
+  326  ls
+  327  cd opt/
+  328  ls
+  329  cdcd ..
+  330  cd ..
+  331  ls
+  332  cd usr/
+  333  ls
+  334  cd local/
+  335  ls
+  336  cd opt/
+  337  ls
+  338  cd mysql
+  339  ls
+  340  cd
+  341  clear 
+  342  launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist
+  343  brew services start mysql 
+  344  clear 
+  345  brew services stop  mysql 
+  346  ip addr show
+  347  show ip addr
+  348  ifconfig
+  349  ip addr show
+  350  inet
+  351  ifconfig | grep inet
+  352  clear 
+  353  ifconfig | grep inet
+  354  brew services start  mysql 
+  355  mysql -u root
+  356  mysql -u root -p
+  357  mysql -u root
+  358  mysql -u root -p
+  359  brew services stop  mysql 
+  360  clear
+  361  exit
+  362  aws --version
+  363  clear 
+  364  mvn -v
+  365  cd 
+  366  ls
+  367  cd Applications/
+  368  ls
+  369  cd ..
+  370  ls
+  371  clear 
+  372  /Users/santoshbhandari/Library/Java/JavaVirtualMachines/openjdk-20.0.2/Contents/Home/bin/java ; exit;
+  373  sql --version
+  374  mysql --version
+  375  mysql server.start
+  376  cd 
+  377  clear 
+  378  brew services start mysql
+  379  mysql -u root
+  380  update mysql.user set authentication_string="admin" where user="root";
+  381  mysql -u root -p
+  382  sudo systemctl stop mysql
+  383  brew services stop mysql 
+  384  sudo mysqld_safe --skip-grant-tables
+  385  mysql -u root
+  386  brew services start mysql
+  387  mysql -u root
+  388  UPDATE mysql.user SET authentication_string=null WHERE User='root';
+  389  sudo mysqld_safe --skip-grant-tables
+  390  mysql -u root
+  391  brew services stop mysql 
+  392   pkill mysqld
+  393  cd /var
+  394  ls
+  395  cd db/
+  396  ls
+  397  cd ..
+  398  cd ..
+  399  ls
+  400  cd 
+  401  clear
+  402  rm -rf /usr/local/var/mysql/
+  403  brew postinstall mysql
+  404   brew services restart mysql
+  405  mysql -uroot
+  406  mysql -u root
+  407  clear 
+  408  mysql -u root
+  409  mysql -u root
+  410  mysql -u root
+  411  mysql -u root -p
+  412  clear 
+  413  brew services stop mysql 
+  414  brew services start mysql
+  415  brew services stop mysql 
+  416  brew services start mysql
+  417  ls
+  418  nano ~/.bashrc
+  419  ~/.zshrc
+  420  nano ~/.zshrc
+  421  nano ~/.bash_profile
+  422  source ~/.bash_profile
+  423  clear 
+  424  ls
+  425  cd Desktop/
+  426  ls
+  427  nano ~/.bash_profile
+  428  cd 
+  429  rm -rf *
+  430  clear
+  431  git status
+  432  git restore .
+  433  clear 
+  434  git status
+  435  ls
+  436  cd Desktop/
+  437  ls
+  438  cd ..
+  439  ls
+  440  cd opt/
+  441  ls
+  442  cd ..
+  443  ls
+  444  rm -rf opt/
+  445  ls
+  446  clear
+  447  pwd
+  448  ls
+  449  clear 
+  450  ls
+  451  cd springapp/
+  452  ls
+  453  ls
+  454  clear 
+  455  git status
+  456  clear 
+  457  ls
+  458  cd ..
+  459  clear 
+  460  clear 
+  461  git push
+  462  clear 
+  463  git diff
+  464  clear 
+  465  git status
+  466  git add . 
+  467  git commit -m 
+  468  git commit -m "Student from database"
+  469  git push 
+  470  clear 
+  471  git commit history
+  472  git history
+  473  git commit --list
+  474  clear 
+  475  git history
+  476  git status
+  477  git log
+  478  clear 
+  479  git status
+  480  git add . 
+  481  git commit -m "manual path variable"
+  482  git push 
+  483  clear 
+  484  git add . 
+  485  git commit -m "Pathvariable with DB" 
+  486  git push 
+  487  git log
+  488  git checkout 30d67f19a20cfedbe35bdd64ab965c80890d9d3f
+  489  git log
+  490  git checkout master 
+  491  git checkout origin 
+  492  git checkout origin/get-student
+  493  git checkout get-student 
+  494  clear 
+  495  git log
+  496  30d67f19a20cfedbe35bdd64ab965c80890d9d3f
+  497  git checkout 30d67f19a20cfedbe35bdd64ab965c80890d9d3f
+  498  git checkout -b exception-handling 30d67f19a20cfedbe35bdd64ab965c80890d9d3f
+  499  clear 
+  500  git branch --list
+  501  git add . 
+  502  git commit -m "Exception Handling" 
+  503  git push 
+  504   git push --set-upstream origin exception-handling
+  505  clear 
+  506  git remote branch --list
+  507  clear 
+  508  git branch --list
+  509  git add . 
+  510  git commit -m "Using ControllerAdvice"
+  511  git push 
+  512  clear 
+  513  git checkout main 
+  514  ls
+  515  git checkout -b employee-rest-api 
+  516  git push 
+  517  git push --set-upstream origin employee-rest-api
+  518  clear 
+  519  ls
+  520  history 
+  521  history >> tmp.txt

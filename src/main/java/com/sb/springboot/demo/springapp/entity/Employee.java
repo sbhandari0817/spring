@@ -1,44 +1,36 @@
 package com.sb.springboot.demo.springapp.entity;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 
 @Entity
-@Table(name="student")
-public class Student {
-
-    //Define fields
+@Table(name="employee")
+public class Employee {
+    // Define Fields
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name="id")
     private int id;
 
-
-    @Column(name = "first_name")
+    @Column(name="first_name")
     private String firstName;
 
-    @Column(name = "last_name")
+    @Column(name="last_name")
     private String lastName;
 
     @Column(name = "email")
     private String email;
 
-    //Define Constructors
-    public Student(){
+    // Define Constructor
 
+    public Employee() {
     }
 
-    public Student(String firstName, String lastName, String email) {
+    public Employee(String firstName, String lastName, String email) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
     }
 
-    //Define Getters/Setters
+    // Define getter/setter
 
     public int getId() {
         return id;
@@ -72,11 +64,11 @@ public class Student {
         this.email = email;
     }
 
-    //ToString
+    //Define toString
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "Employee{" +
                 "id=" + id +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
